@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Prediction Result</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #3498db, #f1c40f);
+            color: #2c3e50;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #prediction-result {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #result {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div id="prediction-result">
+        <h3>Prediction Result</h3>
+        <p id="result">{{ res }}</p> <!-- Replace with actual variable if using a templating engine -->
+    </div>
+</body>
+</html>
